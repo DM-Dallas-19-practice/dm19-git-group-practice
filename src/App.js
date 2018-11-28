@@ -52,7 +52,9 @@ class App extends Component {
                   Patric <Torilla />
                 </li>
                 <li>Daniel</li>
+                <h1>Tyler</h1>
               </ul>
+              
             </div>
           </div>
         </header>
