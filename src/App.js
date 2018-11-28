@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Torilla from "./components/PatBranch/Tortilla";
 
 class App extends Component {
   render() {
@@ -46,6 +47,9 @@ class App extends Component {
                 <li>Spencer</li>
                 <li>T-Bone Sad Skrilla (Tim)</li>
                 <li>Ben!</li>
+                <li>
+                  Patric <Torilla />
+                </li>
               </ul>
             </div>
           </div>
