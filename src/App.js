@@ -15,8 +15,8 @@ class App extends Component {
               <ol className='gitList'>
                 <li>Create Project (already been done for you)</li>
                 <li>Clone repository into your own project folder</li>
-                <li>Yarn/NPM install</li>
                 <li>Git checkout -b branchName</li>
+                <li>Yarn/NPM install</li>
                 <li>code...</li>
                 <li>Git commit</li>
                 <li>Git checkout to master (git checkout master)</li>
