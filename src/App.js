@@ -47,6 +47,7 @@ class App extends Component {
                 <li>Spencer Blah</li>
                 <h1>Jason</h1>
                 <li>T-Bone Sad Skrilla (Tim)</li>
+                <li>Jimmy Shee</li>
                 <li>Ben!</li>
                 <li>
                   Patric <Torilla />
