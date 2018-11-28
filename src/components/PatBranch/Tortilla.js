@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 
-const helpDaniel = () => {
-  return ( 
-    <button onclick={() => alert('Wheres the salsa?!')}>Give Tortilla Chips</button>
-  )
-}
+const Tortilla = () => {
+  return (
+    <button onClick={() => alert("Wheres the salsa?!")}>
+      Give Tortilla Chips
+    </button>
+  );
+};
 
-export default tortilla;
+export default Tortilla;
