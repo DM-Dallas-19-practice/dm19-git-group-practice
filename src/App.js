@@ -37,7 +37,7 @@ class App extends Component {
               <h5>Signed in:</h5>
               <ul>
                 <li>Spencer</li>
-
+                <li>Daniel</li>
               </ul>
             </div>
           </div>
