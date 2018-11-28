@@ -3,8 +3,8 @@
 
 - Create Project (already been done for you)  
 - Clone repository into your own project folder  
-- Yarn/NPM install  
 - Git checkout -b branchName  
+- Yarn/NPM install  
 - code...  
 - Git commit  
 - Git checkout to master (git checkout master)
