@@ -7,18 +7,40 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <h3>Git as a Group!!!</h3>
+          <h4>A small practice repo to practice properly pulling, merging and committing to a group github project</h4>
+          <div className='dumb-holder'>
+            <div>
+              <h5>Here is the order:</h5>
+              <ol className='gitList'>
+                <li>Create Project (already been done for you)</li>
+                <li>Clone repository into your own project folder</li>
+                <li>Yarn/NPM install</li>
+                <li>Git checkout -b branchName</li>
+                <li>code...</li>
+                <li>Git commit</li>
+                <li>Git checkout to master (git checkout master)</li>
+                <li>Git pull (checks for any other changes to master branch)</li>
+                <li>Git checkout branchName</li>
+                <li>Git merge master (merge any updates to your branch)</li>
+                <li>Yarn/npm i to check for new packages</li>
+                <li>Check for any conflicts.</li>
+                <li>No conflicts then git commit/push origin branchName</li>
+                <li>I (mentor name here) will double check for any conflicts and then merge</li>
+                <li>Checkout back to master and pull again</li>
+                <li>Checkout back to branchName and merge master</li>
+                <li>Repeat from 5</li>
+              </ol>
+
+            </div>
+            <div>
+              <h5>Signed in:</h5>
+              <ul>
+                <li>Spencer</li>
+
+              </ul>
+            </div>
+          </div>
         </header>
       </div>
     );
