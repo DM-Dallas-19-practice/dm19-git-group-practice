@@ -54,8 +54,8 @@ class App extends Component {
                 </li>
                 <li>Daniel</li>
                 <h1>Tyler</h1>
+                <h2>JerryBerry</h2>
               </ul>
-              
             </div>
           </div>
         </header>
