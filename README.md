@@ -15,19 +15,22 @@ In this step, we'll get the project set up on two different computers.
 Partner up with a classmate and one of you will fork and clone this repo.
 Send the link to your forked github to your partner and have them clone it to their computer.
 Both of you should run npm install.
-Run npm start.
 
 
 ## Step 2
 
 ### Summary
 
-In this step, we'll add code to the project
+In this step, we'll create a branch and add code to the project
 ### Instructions
 
-Both people should add a file to the components folder. Whats included in the file doesn't matter(work appropriate!)
-Both should go into App.js and add their own <li>name</li> into the <ul> tag.
+Firstly in your terminals run git checkout -b "yourBranchNameHere".
+This will create a new branch for you to add new code to your projects without affecting the master.
+Once this is done, on the bottom left of your code editor you should see the name of the branch you are currently working on.
 
+Now that you each have your own branches, both people should add a file to the components folder. Whats included in the file doesn't matter(work appropriate!).
+Both should go into App.js and add their own name in between the ul tags.
+After you have finshed both should add and commit their code. Then one will run git push origin nameOfBranch.
 
 
 
