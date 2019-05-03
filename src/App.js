@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Torilla from "./components/PatBranch/Tortilla";
 
 class App extends Component {
   render() {
@@ -42,20 +41,11 @@ class App extends Component {
               </ol>
             </div>
             <div>
-              <h5>Signed in:</h5>
+              <h5>Add your name below</h5>
+              <h4>Signed in:</h4>
               <ul>
-                <li>Spencer Blah</li>
-                <h1>Jason</h1>
-                <li>T-Bone Sad Skrilla (Tim)</li>
-                <li>Jimmy Shee</li>
-                <li>Ben!</li>
-                <li>
-                  Patric <Torilla />
-                </li>
-                <li>Daniel</li>
-                <h1>Tyler</h1>
-                <h2>Ethan</h2>
-                <h2>JerryBerry</h2>
+                <li>Spencer Smith</li>
+                {/* add name here*/}
               </ul>
             </div>
           </div>
