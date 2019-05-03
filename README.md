@@ -30,7 +30,7 @@ Once this is done, on the bottom left of your code editor you should see the nam
 
 Now that you each have your own branches, both people should add a file to the components folder. Whats included in the file doesn't matter(work appropriate!).
 Both should go into App.js and add their own name in between the ul tags.
-After you have finshed both should add and commit their code. Then one will run git push origin nameOfBranch.
+After you have finished both should add and commit their code. Then one will run git push origin nameOfBranch.
 
 
 
