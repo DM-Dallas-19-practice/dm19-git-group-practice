@@ -33,8 +33,52 @@ Both should go into App.js and add their own name in between the ul tags.
 After you have finished both should add and commit their code. Then one will run git push origin nameOfBranch.
 
 
+## Step 3
 
-- Create Project (already been done for you)  
+### Summary
+
+In this step we'll cover creating a pull request on github and updating our code
+### Instructions
+
+Now that our new code is up on github lets check the shared repository and click on the branches tab. 
+If all is going well we should see that a new branch was created and we are able to make a pull request.
+Click on the pull request. This is where you can leave comments and ask for code reviews on your added code.
+For now just make sure that we have Able to merge in green letters. If so click on Create pull request.
+Whoever didn't push their code should now review the code on their end making sure that there are no conflicts.
+Once all conflicts are taken care of you can merge the pull request, effectively adding your branch code onto the master branch.
+
+Now that our github master branch has new code, we need to update the master branch on our own computers. 
+In both of your text editors run git checkout master, we don't use -b this time because master already exists and were not creating a new branch.
+Now that we are on master (verify on the bottom of your text editor) run git pull/ git pull origin master.
+This will update our copys of master to the current version on github.
+
+
+## Step 4
+
+### Summary
+
+Updating our branch code
+### Instructions
+
+With our updated masters we now need to give our partners branch the added code. 
+git checkout back to your custom branch and run git merge master.
+This will update the branch that doesn't have the new code.
+At this point we may encounter conflicts in files that both of you have worked on. 
+Address the conflicts that arise and when all is fixed you can run npm start to check that things are working properly.
+
+Once everything is running properly and both of your additions are working go ahead and commit and push origin branchName.
+Repeat the pull request and merge steps to update master on github.
+Checkout back to master in your code editor and git pull to update your versions. 
+
+If everything worked properly both people should have each others code added and working on the master branch. 
+
+
+
+
+
+Here is the basic steps to follow while approaching working on with git as a group during group projects
+
+- Create Project
 - Clone repository into your own project folder  
 - Git checkout -b branchName  
 - Yarn/NPM install  
