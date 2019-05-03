@@ -2,16 +2,31 @@
 
 # Project Summary
 
-In this project, we'll be sharing a github repo with a few other classmates. You'll learn to Branch, Pull and Push to a shared github repository.
+In this project, we'll be sharing a github repo with another classmate. You'll learn to Branch, Pull and Push to a shared github repository.
 
 ## Step 1
 
 ## Summary
 
-In this step, we'll get the project set up.
+In this step, we'll get the project set up on two different computers.
 
 ## Instructions
 
+Partner up with a classmate and one of you will fork and clone this repo.
+Send the link to your forked github to your partner and have them clone it to their computer.
+Both of you should run npm install.
+Run npm start.
+
+
+## Step 2
+
+### Summary
+
+In this step, we'll add code to the project
+### Instructions
+
+Both people should add a file to the components folder. Whats included in the file doesn't matter(work appropriate!)
+Both should go into App.js and add their own <li>name</li> into the <ul> tag.
 
 
 

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Torilla from "./components/PatBranch/Tortilla";
 
 class App extends Component {
   render() {
